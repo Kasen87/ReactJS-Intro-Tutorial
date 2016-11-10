@@ -1,0 +1,138 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 10px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+/*Classes below were added in by Joshua R. Engel on 10.14.16 */
+
+.commentBox {
+  border: 1px solid #999;
+  box-shadow: 3px 5px 3px #aaa;
+  height: 720px;
+  padding: 0 10px 10px 10px;
+  max-width: 60%;
+  margin-top: ;
+  overflow:hidden;
+  border-radius: 3px;
+}
+
+
+.commentList {
+  overflow-y: scroll;
+  height: 70%;
+  min-width: 106%;
+}
+
+.comment {
+  border: 1px solid #999;
+  margin: 10px 0 20px 5px; 
+  box-shadow: 3px 3px 2px #aaa;
+  border-radius: 5px;
+  max-width: 90%; 
+}
+
+.comment > span {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.commentAuthor {
+  background-color: #ccc;
+  padding-left: 5px;
+}
+
+.commentForm:before {
+  content: ' ';
+  min-height: 1px;
+  background-color: #ddd;
+  display: block;
+  transform: translate(-14px, -15px);
+  width: 111%;
+}
+.commentForm {
+  margin-top: 25px;
+  background-color: #eee;
+  height: 15%;
+  padding: 5px;
+  max-width: 90%;
+  border: 1px solid #aaa;
+  margin-left: 5px; 
+} 
+
+.commentForm > input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.commentForm > input:first-child {
+
+}
+
+.commentForm > input:nth-child(2) {
+  height: 40px;
+  width: calc(100% - 5px);
+}
+
+.commentForm > input:last-child {
+  width: 20%;
+  min-width: 50px;
+  float: right;
+}
+
+/*End of additions by JRE*/

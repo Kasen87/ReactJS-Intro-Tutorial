@@ -1,0 +1,15 @@
+[
+	{
+		"id": "1",
+		"author": "Pete Hunt",
+		"text": "This is one comment"},
+	{
+		"id": "2",
+		"author": "James Reynolds",
+		"text": "This is *another* comment"},
+	{
+		"id": "3",
+		"author": "Sally Jayjay",
+		"text": "This is the **best** comment ever!"
+	}
+]	
